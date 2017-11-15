@@ -111,3 +111,7 @@ For example, let's see how the *app-first* selector of the component we saw earl
 
 ```
 Really simple, isn't it? :alien:
+
+### Styling the Component
+
+Everything that's made in the component's CSS file, will be automatically updated to the templates where the selector is. But attention: to create the styles, you must use the CSS selectors based on the component's HTML template.
