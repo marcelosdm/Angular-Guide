@@ -99,3 +99,15 @@ Once done, three files will be generated in the application:
 All of them are created inside a folder, which by default has the name of the component.
 
 Another thing that is important to know, is that in the **app.module.ts** file, the new component is automatically listed on the *declarations*. This saves the developer from having to remember to inform this parameter.
+
+### Using the generated Component
+
+Now, we can use the **component's selector**, or its *tag* as many say. In any template file, the developer just need to declare this selector as an HTML tag. Remember: this selector is defined in the component's **TS** file, in the *metadata* **selector**, inside the *decorator* **@Component**.
+
+For example, let's see how the *app-first* selector of the component we saw earlier would be used by another template:
+
+```html
+<app-first></app-first>
+
+```
+Really simple, isn't it?
