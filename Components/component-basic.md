@@ -82,3 +82,20 @@ export class MyComponent {
 }
 ```
 
+## Creating a Component using Angular-CLI
+
+Sometimes, the quickiest and easiest way to develop something in **Angular** is by using its **CLI** (*Command Line Interface*).
+
+Here is a simple step to create a **component**, using the **Angular-CLI**:
+
++ On the *terminal*, type `ng generate component component_name`. Or to simplify the command can be shortened to `ng g c component_name`
+
+Once done, three files will be generated in the application:
+
+1. a **HTML** file (the component's **template**);
+2. a **CSS** file;
+3. a **TS** file (the component itself).
+
+All of them are created inside a folder, which by default has the name of the component.
+
+Another thing that is important to know, is that in the **app.module.ts** file, the new component is automatically listed on the *declarations*. This saves the developer from having to remember to inform this parameter.
