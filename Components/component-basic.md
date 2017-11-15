@@ -10,9 +10,9 @@ To better understand the use of a component, imagine that a page in an applicati
 
 + the app component
 ++ header (inside the app)
-++ content (inside the app)
-++ shopping (inside the app)
-+++ item (inside the shopping)
+  + content (inside the app)
+  + shopping (inside the app)
+    + item (inside the shopping)
 
 So, we can see that a page is made up by small parts (components), that can operate independently or communicate with each other and are distrubuted in tree structure, where at the root there's always a parent component, followed by its children.
 
