@@ -110,4 +110,4 @@ For example, let's see how the *app-first* selector of the component we saw earl
 <app-first></app-first>
 
 ```
-Really simple, isn't it?
+Really simple, isn't it? :alien:
