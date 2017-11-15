@@ -43,7 +43,7 @@ user = {name: 'Harry',
 	isPremium: true}
 ```
 
-```typescript
+```html
 <!-- in template -->
 
 <input type="text" [value]="user.name">
