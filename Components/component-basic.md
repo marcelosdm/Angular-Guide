@@ -90,11 +90,18 @@ Here is a simple step to create a **component**, using the **Angular-CLI**:
 
 + On the *terminal*, type `ng generate component component_name`. Or to simplify the command can be shortened to `ng g c component_name`
 
-Once done, three files will be generated in the application:
+Once done, four files will be generated in the application:
 
 1. a **HTML** file (the component's **template**);
 2. a **CSS** file;
 3. a **TS** file (the component itself).
+4. another **TS** file, but this one is a *spec* file, that is, for testing.
+
+If the developer doesn't want to create a *spec* file, it's possible to generate the component without it, by typing `--spec=false` in the end of the commmand. Then it would look like this:
+
+```
+ng g c component_name --spec=false
+```
 
 All of them are created inside a folder, which by default has the name of the component.
 
