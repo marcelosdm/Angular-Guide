@@ -40,12 +40,14 @@ In this one, the *div* in the template is hidden, and only will be shown for the
 //in component
 
 user = {name: 'Harry',
-		isPremium: true}
+	isPremium: true}
 ```
 
 ```typescript
 <!-- in template -->
+
 <input type="text" [value]="user.name">
+
 <div [hidden]="!user.isPremium">
 	Premium Stuff
 </div>
