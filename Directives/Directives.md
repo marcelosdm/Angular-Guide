@@ -27,7 +27,7 @@ The Angular **ngIf** directive is used to display a view or portion of a view. I
 
 ###### Example
 
-```typescript
+```html
 <input type="text" [value]="user.name">
 <div *ngIf="user.isPremium">
 	Welcome to the premium access!
@@ -49,7 +49,7 @@ export class AppUsers {
 }
 ```
 
-```angular
+```html
 <ul>
 	<li *ngFor="let user of users">{{user.name}}</li>
 </ul>
