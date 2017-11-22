@@ -40,7 +40,7 @@ The Angular **ngFor** is the *Angular repeater* directive.
 
 ###### Example
 
-In the example bellow, the **ngFor** will repeat the *<li>* element for each user in the *users* group of our class.
+In the example bellow, the **ngFor** will repeat the `<li>` element for each user in the *users* group of our class.
 
 ```typescript
 export class AppUsers {
