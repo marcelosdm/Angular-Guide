@@ -45,7 +45,7 @@ In the example bellow, the **ngFor** will repeat the *<li>* element for each use
 ```typescript
 export class AppUsers {
   title = 'My App Users';
-  userse = ['tommy', 'dave', 'bob', 'john'];
+  users = ['tommy', 'dave', 'bob', 'john'];
 }
 ```
 
